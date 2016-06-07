@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9533B5F1C33813600FF087B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9533B5E1C33813600FF087B /* main.m */; };
+		D9533B621C33813600FF087B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9533B611C33813600FF087B /* AppDelegate.m */; };
+		D9533B681C33813600FF087B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9533B661C33813600FF087B /* Main.storyboard */; };
+		D9533B6A1C33813600FF087B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9533B691C33813600FF087B /* Assets.xcassets */; };
+		D9533B6D1C33813600FF087B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9533B6B1C33813600FF087B /* LaunchScreen.storyboard */; };
+		D9533B781C33813600FF087B /* cell_CollertenviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9533B771C33813600FF087B /* cell_CollertenviewTests.m */; };
+		D9533B831C33813600FF087B /* cell_CollertenviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9533B821C33813600FF087B /* cell_CollertenviewUITests.m */; };
+		D9533B921C33819300FF087B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9533B911C33819300FF087B /* TableViewController.m */; };
+		D9533B981C3381CC00FF087B /* PRZTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9533B971C3381CC00FF087B /* PRZTableViewCell.m */; };
+		D9533B9B1C3383AB00FF087B /* PRZCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9533B9A1C3383AB00FF087B /* PRZCollectionViewCell.m */; };
+		D9533BA41C33875900FF087B /* work_03.png in Resources */ = {isa = PBXBuildFile; fileRef = D9533B9C1C33875900FF087B /* work_03.png */; };
+		D9533BA51C33875900FF087B /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = D9533B9D1C33875900FF087B /* more.png */; };
+		D9533BA61C33875900FF087B /* work-bg_09.png in Resources */ = {isa = PBXBuildFile; fileRef = D9533B9E1C33875900FF087B /* work-bg_09.png */; };
+		D9533BA71C33875900FF087B /* work-bg_12.png in Resources */ = {isa = PBXBuildFile; fileRef = D9533B9F1C33875900FF087B /* work-bg_12.png */; };
+		D9533BA81C33875900FF087B /* work-bg_14.png in Resources */ = {isa = PBXBuildFile; fileRef = D9533BA01C33875900FF087B /* work-bg_14.png */; };
+		D9533BA91C33875900FF087B /* work-bg_16.png in Resources */ = {isa = PBXBuildFile; fileRef = D9533BA11C33875900FF087B /* work-bg_16.png */; };
+		D9533BAA1C33875900FF087B /* work-bg_21.png in Resources */ = {isa = PBXBuildFile; fileRef = D9533BA21C33875900FF087B /* work-bg_21.png */; };
+		D9533BAB1C33875900FF087B /* work_05.png in Resources */ = {isa = PBXBuildFile; fileRef = D9533BA31C33875900FF087B /* work_05.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9533B741C33813600FF087B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9533B521C33813600FF087B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9533B591C33813600FF087B;
+			remoteInfo = "cell中Collertenview";
+		};
+		D9533B7F1C33813600FF087B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9533B521C33813600FF087B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9533B591C33813600FF087B;
+			remoteInfo = "cell中Collertenview";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9533B5A1C33813600FF087B /* cell中Collertenview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cell中Collertenview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9533B5E1C33813600FF087B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9533B601C33813600FF087B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9533B611C33813600FF087B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9533B671C33813600FF087B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9533B691C33813600FF087B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9533B6C1C33813600FF087B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9533B6E1C33813600FF087B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9533B731C33813600FF087B /* cell中CollertenviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell中CollertenviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9533B771C33813600FF087B /* cell_CollertenviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cell_CollertenviewTests.m; sourceTree = "<group>"; };
+		D9533B791C33813600FF087B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9533B7E1C33813600FF087B /* cell中CollertenviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cell中CollertenviewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9533B821C33813600FF087B /* cell_CollertenviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cell_CollertenviewUITests.m; sourceTree = "<group>"; };
+		D9533B841C33813600FF087B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9533B901C33819300FF087B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		D9533B911C33819300FF087B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		D9533B961C3381CC00FF087B /* PRZTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRZTableViewCell.h; sourceTree = "<group>"; };
+		D9533B971C3381CC00FF087B /* PRZTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRZTableViewCell.m; sourceTree = "<group>"; };
+		D9533B991C3383AB00FF087B /* PRZCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRZCollectionViewCell.h; sourceTree = "<group>"; };
+		D9533B9A1C3383AB00FF087B /* PRZCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRZCollectionViewCell.m; sourceTree = "<group>"; };
+		D9533B9C1C33875900FF087B /* work_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = work_03.png; sourceTree = "<group>"; };
+		D9533B9D1C33875900FF087B /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		D9533B9E1C33875900FF087B /* work-bg_09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work-bg_09.png"; sourceTree = "<group>"; };
+		D9533B9F1C33875900FF087B /* work-bg_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work-bg_12.png"; sourceTree = "<group>"; };
+		D9533BA01C33875900FF087B /* work-bg_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work-bg_14.png"; sourceTree = "<group>"; };
+		D9533BA11C33875900FF087B /* work-bg_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work-bg_16.png"; sourceTree = "<group>"; };
+		D9533BA21C33875900FF087B /* work-bg_21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "work-bg_21.png"; sourceTree = "<group>"; };
+		D9533BA31C33875900FF087B /* work_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = work_05.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9533B571C33813600FF087B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9533B701C33813600FF087B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9533B7B1C33813600FF087B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9533B511C33813600FF087B = {
+			isa = PBXGroup;
+			children = (
+				D9533B5C1C33813600FF087B /* cell中Collertenview */,
+				D9533B761C33813600FF087B /* cell中CollertenviewTests */,
+				D9533B811C33813600FF087B /* cell中CollertenviewUITests */,
+				D9533B5B1C33813600FF087B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9533B5B1C33813600FF087B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9533B5A1C33813600FF087B /* cell中Collertenview.app */,
+				D9533B731C33813600FF087B /* cell中CollertenviewTests.xctest */,
+				D9533B7E1C33813600FF087B /* cell中CollertenviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9533B5C1C33813600FF087B /* cell中Collertenview */ = {
+			isa = PBXGroup;
+			children = (
+				D9533B601C33813600FF087B /* AppDelegate.h */,
+				D9533B611C33813600FF087B /* AppDelegate.m */,
+				D9533B901C33819300FF087B /* TableViewController.h */,
+				D9533B911C33819300FF087B /* TableViewController.m */,
+				D9533B961C3381CC00FF087B /* PRZTableViewCell.h */,
+				D9533B971C3381CC00FF087B /* PRZTableViewCell.m */,
+				D9533B991C3383AB00FF087B /* PRZCollectionViewCell.h */,
+				D9533B9A1C3383AB00FF087B /* PRZCollectionViewCell.m */,
+				D9533B661C33813600FF087B /* Main.storyboard */,
+				D9533B691C33813600FF087B /* Assets.xcassets */,
+				D9533B9C1C33875900FF087B /* work_03.png */,
+				D9533B9D1C33875900FF087B /* more.png */,
+				D9533B9E1C33875900FF087B /* work-bg_09.png */,
+				D9533B9F1C33875900FF087B /* work-bg_12.png */,
+				D9533BA01C33875900FF087B /* work-bg_14.png */,
+				D9533BA11C33875900FF087B /* work-bg_16.png */,
+				D9533BA21C33875900FF087B /* work-bg_21.png */,
+				D9533BA31C33875900FF087B /* work_05.png */,
+				D9533B6B1C33813600FF087B /* LaunchScreen.storyboard */,
+				D9533B6E1C33813600FF087B /* Info.plist */,
+				D9533B5D1C33813600FF087B /* Supporting Files */,
+			);
+			path = "cell中Collertenview";
+			sourceTree = "<group>";
+		};
+		D9533B5D1C33813600FF087B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9533B5E1C33813600FF087B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9533B761C33813600FF087B /* cell中CollertenviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9533B771C33813600FF087B /* cell_CollertenviewTests.m */,
+				D9533B791C33813600FF087B /* Info.plist */,
+			);
+			path = "cell中CollertenviewTests";
+			sourceTree = "<group>";
+		};
+		D9533B811C33813600FF087B /* cell中CollertenviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9533B821C33813600FF087B /* cell_CollertenviewUITests.m */,
+				D9533B841C33813600FF087B /* Info.plist */,
+			);
+			path = "cell中CollertenviewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9533B591C33813600FF087B /* cell中Collertenview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9533B871C33813600FF087B /* Build configuration list for PBXNativeTarget "cell中Collertenview" */;
+			buildPhases = (
+				D9533B561C33813600FF087B /* Sources */,
+				D9533B571C33813600FF087B /* Frameworks */,
+				D9533B581C33813600FF087B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cell中Collertenview";
+			productName = "cell中Collertenview";
+			productReference = D9533B5A1C33813600FF087B /* cell中Collertenview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9533B721C33813600FF087B /* cell中CollertenviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9533B8A1C33813600FF087B /* Build configuration list for PBXNativeTarget "cell中CollertenviewTests" */;
+			buildPhases = (
+				D9533B6F1C33813600FF087B /* Sources */,
+				D9533B701C33813600FF087B /* Frameworks */,
+				D9533B711C33813600FF087B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9533B751C33813600FF087B /* PBXTargetDependency */,
+			);
+			name = "cell中CollertenviewTests";
+			productName = "cell中CollertenviewTests";
+			productReference = D9533B731C33813600FF087B /* cell中CollertenviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9533B7D1C33813600FF087B /* cell中CollertenviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9533B8D1C33813600FF087B /* Build configuration list for PBXNativeTarget "cell中CollertenviewUITests" */;
+			buildPhases = (
+				D9533B7A1C33813600FF087B /* Sources */,
+				D9533B7B1C33813600FF087B /* Frameworks */,
+				D9533B7C1C33813600FF087B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9533B801C33813600FF087B /* PBXTargetDependency */,
+			);
+			name = "cell中CollertenviewUITests";
+			productName = "cell中CollertenviewUITests";
+			productReference = D9533B7E1C33813600FF087B /* cell中CollertenviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9533B521C33813600FF087B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xiantian;
+				TargetAttributes = {
+					D9533B591C33813600FF087B = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					D9533B721C33813600FF087B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D9533B591C33813600FF087B;
+					};
+					D9533B7D1C33813600FF087B = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = D9533B591C33813600FF087B;
+					};
+				};
+			};
+			buildConfigurationList = D9533B551C33813600FF087B /* Build configuration list for PBXProject "cell中Collertenview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9533B511C33813600FF087B;
+			productRefGroup = D9533B5B1C33813600FF087B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9533B591C33813600FF087B /* cell中Collertenview */,
+				D9533B721C33813600FF087B /* cell中CollertenviewTests */,
+				D9533B7D1C33813600FF087B /* cell中CollertenviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9533B581C33813600FF087B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9533BAB1C33875900FF087B /* work_05.png in Resources */,
+				D9533B6D1C33813600FF087B /* LaunchScreen.storyboard in Resources */,
+				D9533BA51C33875900FF087B /* more.png in Resources */,
+				D9533B6A1C33813600FF087B /* Assets.xcassets in Resources */,
+				D9533B681C33813600FF087B /* Main.storyboard in Resources */,
+				D9533BA61C33875900FF087B /* work-bg_09.png in Resources */,
+				D9533BA91C33875900FF087B /* work-bg_16.png in Resources */,
+				D9533BA41C33875900FF087B /* work_03.png in Resources */,
+				D9533BA81C33875900FF087B /* work-bg_14.png in Resources */,
+				D9533BAA1C33875900FF087B /* work-bg_21.png in Resources */,
+				D9533BA71C33875900FF087B /* work-bg_12.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9533B711C33813600FF087B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9533B7C1C33813600FF087B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9533B561C33813600FF087B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9533B981C3381CC00FF087B /* PRZTableViewCell.m in Sources */,
+				D9533B9B1C3383AB00FF087B /* PRZCollectionViewCell.m in Sources */,
+				D9533B621C33813600FF087B /* AppDelegate.m in Sources */,
+				D9533B921C33819300FF087B /* TableViewController.m in Sources */,
+				D9533B5F1C33813600FF087B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9533B6F1C33813600FF087B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9533B781C33813600FF087B /* cell_CollertenviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9533B7A1C33813600FF087B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9533B831C33813600FF087B /* cell_CollertenviewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9533B751C33813600FF087B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9533B591C33813600FF087B /* cell中Collertenview */;
+			targetProxy = D9533B741C33813600FF087B /* PBXContainerItemProxy */;
+		};
+		D9533B801C33813600FF087B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9533B591C33813600FF087B /* cell中Collertenview */;
+			targetProxy = D9533B7F1C33813600FF087B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9533B661C33813600FF087B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9533B671C33813600FF087B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9533B6B1C33813600FF087B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9533B6C1C33813600FF087B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9533B851C33813600FF087B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9533B861C33813600FF087B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9533B881C33813600FF087B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cell中Collertenview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiantian.cell-Collertenview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9533B891C33813600FF087B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cell中Collertenview/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiantian.cell-Collertenview";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9533B8B1C33813600FF087B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cell中CollertenviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiantian.cell-CollertenviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cell中Collertenview.app/cell中Collertenview";
+			};
+			name = Debug;
+		};
+		D9533B8C1C33813600FF087B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cell中CollertenviewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiantian.cell-CollertenviewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cell中Collertenview.app/cell中Collertenview";
+			};
+			name = Release;
+		};
+		D9533B8E1C33813600FF087B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cell中CollertenviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiantian.cell-CollertenviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cell中Collertenview";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D9533B8F1C33813600FF087B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "cell中CollertenviewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiantian.cell-CollertenviewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "cell中Collertenview";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9533B551C33813600FF087B /* Build configuration list for PBXProject "cell中Collertenview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9533B851C33813600FF087B /* Debug */,
+				D9533B861C33813600FF087B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9533B871C33813600FF087B /* Build configuration list for PBXNativeTarget "cell中Collertenview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9533B881C33813600FF087B /* Debug */,
+				D9533B891C33813600FF087B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9533B8A1C33813600FF087B /* Build configuration list for PBXNativeTarget "cell中CollertenviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9533B8B1C33813600FF087B /* Debug */,
+				D9533B8C1C33813600FF087B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9533B8D1C33813600FF087B /* Build configuration list for PBXNativeTarget "cell中CollertenviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9533B8E1C33813600FF087B /* Debug */,
+				D9533B8F1C33813600FF087B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9533B521C33813600FF087B /* Project object */;
+}
